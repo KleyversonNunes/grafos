@@ -16,7 +16,7 @@ typedef struct Grafo {
     int numVertices;
     TipoItem** listaAdj;
     // Tipo de Grafo: Direcionado (Digrafo) ou Não direcionado
-    char tipo;
+    char tipoGrafo;
 } Grafo;
 
 TipoItem* criarItem(int vertice) {
